@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/ExoticObjects/TestFramework.git" }
   s.source_files  = "TestLibrary/**/*.{h,m}"
   s.requires_arc = true
-  s.dependency "AFNetworking"
+  # s.dependency "AFNetworking"
+  s.dependency 'STHTTPRequest', '1.0.2'
 
 end

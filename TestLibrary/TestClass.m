@@ -7,14 +7,17 @@
 //
 
 #import "TestClass.h"
-#import <AFNetworking/AFNetworking.h>
+#import "STHTTPRequest.h"
+//#import <AFNetworking/AFNetworking.h>
 
 @implementation TestClass
 
 + (void)load {
 
     //Any old code that uses AFNetworking...
-    AFHTTPRequestSerializer * serializer = [AFHTTPRequestSerializer serializer];
+//    AFHTTPRequestSerializer * serializer = [AFHTTPRequestSerializer serializer];
+
+    STHTTPRequest * request;
 
 }
 
