@@ -10,4 +10,6 @@
 
 @interface TestClass : NSObject
 
++ (void)load;
+
 @end

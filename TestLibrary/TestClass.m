@@ -10,7 +10,8 @@
 // #import "AFNetworking.h"
 
 @implementation TestClass
-+(void)load {
+
++ (void)load {
     // AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     // [manager GET:@"http://google.com" parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
     //     NSLog(@"JSON: %@", responseObject);
