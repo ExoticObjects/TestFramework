@@ -1,3 +1,11 @@
+
+# build framework using: 
+# pod package TestLibrary.podspec --embedded --no-mangle --force 
+#
+# OR
+#
+# pod package TestLibrary.podspec --embedded --force
+
 Pod::Spec.new do |s|
 
   s.name         = "TestLibrary"
